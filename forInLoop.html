@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For In Loop</title>
+</head>
+<body>
+    <h1>For In Loop</h1>
+    <script>
+        //  person ={Fname: "shimelis", Lname: "Techane", age: 28}
+        // var x,y;
+        // //x hold key and y hold value
+        // for(x in person){
+        //     y =person[x];
+        //     document.write(x + " " + y +"</br>");
+        // }
+
+        // salary ={abeni: 10000, kasu: 11000, roba: 20000}
+        // var x,y;
+        // var total_salary =0;
+        // //x hold key and y hold value
+        // for(x in salary){
+        //     total_salary+=salary[x];
+        //     y =salary[x];
+        //     console.log(x + " " + y) ;
+        //     document.write(x + " " + y +"</br>");
+        // }
+        // document.write("Employee Total Salary = " + total_salary);    
+
+        string ="js tutorial one";
+        var x,y;
+        //x hold key and y hold value
+        for(x in string){
+            if (string[x] !== 'j' && string[x] !== 's') {
+        y = string[x];
+        document.write(y + "</br>");
+    }
+           
+        }  
+    </script>
+</body>
+</html>
