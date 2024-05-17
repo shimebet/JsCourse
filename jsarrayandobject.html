@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Array and Object</title>
+</head>
+<body>
+    <h1>JS Array and Object</h1>
+    <script>
+        // use direct object creation
+        //var student = {ID: 123, Name: "anene", Sex: "M", Dept: "CS"};
+        //document.write(student.ID, student.Name, student.Sex, student.Dept);
+
+        //use fuction
+        function student(ID,Name,Sex,Dept){
+            this.ID = ID;
+            this.Name = Name
+            this.Sex = Sex;
+            this.Dept = Dept;
+        }
+        stu=new student(123, 'anene', 'M', 'CS');
+        document.write(stu.ID, stu.Name, stu.Sex, stu.Dept);
+    </script>
+</body>
+</html>
